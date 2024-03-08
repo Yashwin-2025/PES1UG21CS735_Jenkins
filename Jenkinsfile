@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     // Compile the .cpp file using shell script (replace with your actual command)
-                    sh 'g++ hello.cpp -o PES1UG21CS735-1 || echo "Build failed"'
+                    sh 'g++ helo.cpp -o PES1UG21CS735-1 || echo "Build failed"'
                 }
             }
         }
